@@ -1,23 +1,81 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="homepage.css">
-</head>
+<link rel="stylesheet" type="text/css" href="../homepage.css">
+<style>
+body {margin:0;}
 
-        <div id="header">
-         </div>
-            <div id="navbar">
-            <ul>
-            <img id="main-logo" src="../images/amazon-featured-image.jpg" style="width:100px;"/></a>
-              <li><a href="home.html">HOME</a></li>
-              <li><a href="product.html">PRODUCT</a></li>
-              <li><a href="contact.html">CONTACT US</a></li>
-             
-          </ul>
-          </div>
-          
-         
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:none(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.left {
+    position: absolute;
+    right: 950px;
+    width: 300px;
+    padding: 10px;
+}
+div {
+ 
+    padding: 5px;
+}
+
+.img{
+    float: right;
+}
+footer.footer {
+    height: 60px;
+    width: 100%;
+    background-color: grey;
+}
+
+ div.footercontainer {
+    color:blue;
+    text-align: center;
+    font-size: 0.7em;
+}
+p{
+	text-indent: 50px;
+}
+
+
+</style>
+</head>
 <body>
+
+<ul>
+<img id="main-logo" src="../images/amazon-featured-image.jpg" style="width:100px;height:50px;"/>
+  <li><a href="contactus.html" target="_top">CONTACT US</a></li>
+  <li><a href="product.html">PRODUCT</a></li>
+  <li><a class="active" href="mainpage.html">HOME</a></li>
+  
+</ul><br/><br><br>
 <marquee scrollamount="10"
 direction="left"
 behavior="scroll">
@@ -37,11 +95,10 @@ behavior="scroll">
 	</div>
 	<footer class="footer">
 	<div class="footercontainer"
-	<p class="copyright">copyright@amazonshopping.com</p>
+	< p class="copyright">copyright@amazonshopping.com</p>
 	</div>
 
-		
-	</footer>
+		</footer>
 
 
 </body>

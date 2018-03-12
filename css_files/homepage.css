@@ -1,13 +1,37 @@
-
-body {margin:0;}
-
-
+#header{
+    height:90px;
+    color:white;
+}
 img.main_logo{
     float:left;
 }
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+li{
+    float: right;
+}
+li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 19px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: blue;
+
+}
 
 .active {
-    background-color: #4CAF50;
+    background-color: blue;
 }
 .left {
     position: absolute;
@@ -26,13 +50,15 @@ div {
 footer.footer {
     height: 80px;
     width: 100%;
-    background-color: #333333;
+    background-color: green;
 }
-
-p.copyright {
-    color: #fff;
-    
+div.footercontainer{
+    color: blue;
+    text-align: center;
     font-size: 0.7em;
 }
 
+p {
+    text-indent: 50px;
+}
 
